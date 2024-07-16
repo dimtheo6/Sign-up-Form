@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+.header,
+.form,
+.sign{
+    border: 1px solid white;
+}
+
+.container{
+    display: flex;
+    color: white;
+    background-color: black;
+}
+
+/*   left side    */
+.left{
+    flex: 1;
+    background: url("images/logo1.avif");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+   
+}
+img{
+    overflow: auto;
+}
+
+/*   right side    */
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+}
+
+/*      header      */
+.header{
+    flex-wrap: wrap;
+    height: 40%;
+    width: 100%;
+    line-height: 1.2em;
+
+}
+
+p{
+    max-width: 50%;
+}
+
+
+/*      form        */
+.form{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(6, 6, 6);
+    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+}
+
+form{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 3em 5em;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    color: rgb(160, 159, 159);
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=password]{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: black;
+    padding: 5px 10px;
+    color: rgb(160, 159, 159);
+    
+}
+
+
+/*      sign        */
+.sign{
+    height: 30%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
