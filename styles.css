@@ -125,6 +125,14 @@ button{
     margin: 1em 5em;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: rgb(160, 159, 159) !important;
+}
+
 
 
 
