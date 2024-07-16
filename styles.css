@@ -30,39 +30,36 @@ img{
     flex-direction: column;
     align-items: center;
     width: 70%;
-    justify-content: space-between;
+
 }
 
 /*      header      */
 .header{
     flex-wrap: wrap;
-    height: 40%;
+    height: 30%;
     width: 100%;
     line-height: 1.2em;
 }
 
 .title{
-    margin: 10em 4em;
+    margin: 8em 4em;
+    margin-bottom: 0;
     max-width: 40%;
     font-size: 20px;
 }
 
-
 /*      form        */
 .form{
-    height: 30%;
-    width: 100%;
-    background-color: rgb(6, 6, 6);
-    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
-}
 
-form{
     display: flex;
     flex-flow: row wrap;
-    margin: 3em 5em;
+    background-color: rgb(6, 6, 6);
+    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+    width: fit-content;
+    margin: 3em 0;
     gap: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 5em 5em;
+
 }
 
 .input{
@@ -90,10 +87,6 @@ input[type=password]{
     width: 100%;
 }
 
-.sign{
-    margin: 50px 50px;
-}
-
 a:link {
     text-decoration: none;
     color: rgb(244, 66, 232);
@@ -115,12 +108,21 @@ a:link {
 button{
     height: 50px;
     width: 200px;
+    margin: 1em 5em;
     border: 2px solid rgb(224, 5, 209);
     border-radius: 5px;
     font-size: 1em;
     background-color: black;
     font-weight: bold;
     color:rgb(244, 66, 232)
+}
+
+.log{
+    width: 100%;
+}
+
+.log p{
+    margin: 1em 5em;
 }
 
 
