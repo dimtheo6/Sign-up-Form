@@ -4,11 +4,6 @@
     gap: 0;
 }
 
-.header,
-.form,
-.sign{
-    border: 1px solid white;
-}
 
 .container{
     display: flex;
@@ -44,11 +39,12 @@ img{
     height: 40%;
     width: 100%;
     line-height: 1.2em;
-
 }
 
-p{
-    max-width: 50%;
+.title{
+    margin: 10em 4em;
+    max-width: 40%;
+    font-size: 20px;
 }
 
 
@@ -88,12 +84,54 @@ input[type=password]{
     
 }
 
-
 /*      sign        */
-.sign{
+.footer{
     height: 30%;
     width: 100%;
 }
+
+.sign{
+    margin: 50px 50px;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(244, 66, 232);
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: rgb(244, 66, 232);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+button{
+    height: 50px;
+    width: 200px;
+    border: 2px solid rgb(224, 5, 209);
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: black;
+    font-weight: bold;
+    color:rgb(244, 66, 232)
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
